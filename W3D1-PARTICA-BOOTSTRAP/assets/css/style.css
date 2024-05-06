@@ -1,0 +1,55 @@
+#img2 {
+    border-radius: 50px;
+    width: 40px;
+}
+
+
+
+.firstSection {
+    color: white;
+}
+
+body > section.SecondSection > div > div {
+    margin-left: 12%;
+}
+
+.intro {
+    margin-left: 12%;
+}
+
+.avatar {
+    width:40px;
+    border-radius: 20px;
+}
+#img1{
+    width: 20px;
+}
+
+.card {
+    margin: 0 3%;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.10);
+    box-shadow: 0 0 70px rgba(0, 0, 0, 0.3);
+  }
+
+.carousel-control-prev{
+    left: -150px;
+}
+
+.carousel-control-next{
+    right: -140px;
+}
+
+.carousel-control-prev-icon{
+    background-color: gray;
+    border-radius: 40%;
+}
+
+.carousel-control-next-icon{
+    background-color: gray;
+    border-radius: 40%;
+}
